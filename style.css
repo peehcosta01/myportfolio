@@ -1,0 +1,104 @@
+body{
+  background-color: rgb(234, 231, 231);
+}
+.navbar{
+  display: flex;
+  justify-content: space-around; /*Distribui os itens igualmente*/
+  align-items: center; /* Centraliza os itens verticalmente*/
+  padding: 20px 0px;
+
+}
+
+.navbar a {
+  border-radius: 30px ;
+  background-color: rgb(205, 205, 205);
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  padding: 10px 50px;
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.conteudo_principal{
+  padding: 50px;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+}
+
+img{
+  height: 200px;
+  width: auto;
+  background-color:rgb(205, 205, 205);
+  border-radius: 50%;
+}
+
+.conteudo_secundario{
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+}
+
+.conteudo_secundario h3{
+  text-transform: uppercase;
+}
+
+.skills-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.column {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.column:last-child{
+  margin-right: 0;
+}
+
+
+
+#contact-section{
+  padding: 5%;
+}
+
+#contact-section a{
+  text-decoration: none;
+  color: black;
+}
+
+
+footer{
+  font-family: "Quicksand", sans-serif;
+  position: relative;
+  margin-top: auto;
+  text-align: center;
+  border: 5px;
+  background-color: rgb(205, 205, 205);
+}
+
+/* Estilos base, mobile first */
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Estilos para tablets */
+@media (min-width: 768px) {
+  .container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .item {
+    flex: 1 1 40%; /* Itens ocupam cerca de 40% da largura do container */
+  }
+}
+
+/* Estilos para desktops */
+@media (min-width: 1024px) {
+  .item {
+    flex: 1 1 25%; /* Itens ocupam cerca de 25% da largura do container */
+  }
+}
