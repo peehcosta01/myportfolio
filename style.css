@@ -11,28 +11,6 @@ body {
   background-color: rgb(234, 231, 231);
 }
 
-.navbar {
-  background-color: rgb(205, 205, 205);
-  padding: 10px 20px; /* Reduzindo o padding para torná-lo mais compacto */
-  text-align: center; /* Centralizando os links */
-}
-
-.navbar a {
-  display: inline-block; /* Mudando para exibição em linha */
-  margin: 0 10px; /* Espaçamento entre os links */
-  border-radius: 5px;
-  background-color: rgba(0, 0, 0, 0.1); /* Adicionando um tom mais suave ao fundo */
-  text-decoration: none;
-  text-transform: uppercase;
-  color: black;
-  padding: 8px 12px;
-  font-weight: 700;
-}
-
-.navbar a:hover {
-  background-color: rgba(0, 0, 0, 0.2); /* Alterando a cor de fundo ao passar o mouse */
-}
-
 .conteudo_principal {
   padding: 20px;
   text-align: center;
